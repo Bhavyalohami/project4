@@ -15,7 +15,7 @@ import Compare from "./components/Compare";
 import Services from "./components/Services";
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Header />
       <Routes>
         <Route path="/" element={<Home />}/>

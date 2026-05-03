@@ -9,6 +9,15 @@
       name="description"
       content="LumaGear is a cinematic premium tech store for curated devices, bundles, trade-in, setup services, and expert buying guidance."
     />
+    <script>
+      (function () {
+        var params = new URLSearchParams(window.location.search);
+        var route = params.get("route");
+        if (route) {
+          window.history.replaceState(null, "", "/project4" + route);
+        }
+      })();
+    </script>
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/assets/favicon.svg" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
