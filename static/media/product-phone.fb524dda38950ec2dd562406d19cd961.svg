@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-label="Premium smartphone">
+  <rect width="720" height="520" rx="48" fill="#f6f0e6"/>
+  <circle cx="156" cy="106" r="82" fill="#ff6b5f" opacity=".28"/>
+  <circle cx="570" cy="418" r="120" fill="#10a6a6" opacity=".22"/>
+  <g transform="translate(242 54)">
+    <rect x="0" y="0" width="236" height="412" rx="42" fill="#111318"/>
+    <rect x="18" y="22" width="200" height="368" rx="30" fill="#fdf8ef"/>
+    <circle cx="80" cy="76" r="26" fill="#111318"/>
+    <circle cx="126" cy="76" r="26" fill="#111318"/>
+    <circle cx="80" cy="76" r="12" fill="#58f0d5"/>
+    <circle cx="126" cy="76" r="12" fill="#ffb84d"/>
+    <rect x="48" y="156" width="140" height="24" rx="12" fill="#111318"/>
+    <rect x="48" y="196" width="96" height="14" rx="7" fill="#10a6a6"/>
+    <path d="M52 286c28-42 64-50 104-24 25 17 44 19 62 6v92H52z" fill="#ff6b5f" opacity=".82"/>
+  </g>
+</svg>

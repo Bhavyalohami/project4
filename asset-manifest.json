@@ -1,22 +1,33 @@
 {
   "files": {
-    "main.css": "/project4/static/css/main.bc249160.css",
-    "main.js": "/project4/static/js/main.8f15b9f7.js",
+    "main.css": "/project4/static/css/main.71683e6a.css",
+    "main.js": "/project4/static/js/main.5da3de30.js",
     "static/media/hero-core.svg": "/project4/static/media/hero-core.c038357b6a3c3cd3d880.svg",
     "static/media/collections-art.svg": "/project4/static/media/collections-art.f485dc1ad0ec75868166.svg",
     "index.html": "/project4/index.html",
+    "static/media/product-phone.svg": "/project4/static/media/product-phone.fb524dda38950ec2dd562406d19cd961.svg",
+    "static/media/logo.svg": "/project4/static/media/logo.023da9f4a7aa87b5d1e5d1b0307beb4f.svg",
     "static/media/trade-art.svg": "/project4/static/media/trade-art.ea8542e23a7f642668e4.svg",
     "static/media/services-art.svg": "/project4/static/media/services-art.e645953a0168cf214685.svg",
     "static/media/compare-art.svg": "/project4/static/media/compare-art.5b3cf18a3be19cc960eb.svg",
+    "static/media/product-headphones.svg": "/project4/static/media/product-headphones.7d3a4aa8f98a5aa4893dab96f15c3ed2.svg",
     "static/media/deals-art.svg": "/project4/static/media/deals-art.1b0b8f1fd54b61d7698d.svg",
+    "static/media/product-laptop.svg": "/project4/static/media/product-laptop.74a7fd44dbe6fce5fef688791a9bfc33.svg",
+    "static/media/product-tablet.svg": "/project4/static/media/product-tablet.9f3e7617890fbe9d6f584e17fc509baa.svg",
     "static/media/journal-art.svg": "/project4/static/media/journal-art.23c9e0edea83cb979c47.svg",
+    "static/media/product-watch.svg": "/project4/static/media/product-watch.c8190f540b039a4cc3a403f41491ed98.svg",
+    "static/media/product-display.svg": "/project4/static/media/product-display.ad98f782c1344674ce12cff2e6a46ce3.svg",
     "static/media/support-art.svg": "/project4/static/media/support-art.99951e2ac4536349fb3a.svg",
+    "static/media/collection-desk.svg": "/project4/static/media/collection-desk.51ac633dc75db0e4333f1f9504e2fbf8.svg",
+    "static/media/collection-everyday.svg": "/project4/static/media/collection-everyday.0bcc9ffd44f5fb0a5d516aa5278e158f.svg",
     "static/media/about-art.svg": "/project4/static/media/about-art.e03aec908f223db3f962.svg",
-    "main.bc249160.css.map": "/project4/static/css/main.bc249160.css.map",
-    "main.8f15b9f7.js.map": "/project4/static/js/main.8f15b9f7.js.map"
+    "static/media/collection-travel.svg": "/project4/static/media/collection-travel.34f22699c514043085b69072ea8c51fd.svg",
+    "static/media/collection-creator.svg": "/project4/static/media/collection-creator.af66c43064f352b8677ad200ca4d9af0.svg",
+    "main.71683e6a.css.map": "/project4/static/css/main.71683e6a.css.map",
+    "main.5da3de30.js.map": "/project4/static/js/main.5da3de30.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc249160.css",
-    "static/js/main.8f15b9f7.js"
+    "static/css/main.71683e6a.css",
+    "static/js/main.5da3de30.js"
   ]
 }

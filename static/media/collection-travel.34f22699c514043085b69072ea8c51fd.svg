@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-label="Travel light kit">
+  <rect width="900" height="560" rx="42" fill="#f6f0e6"/>
+  <path d="M132 342c142-128 270-176 384-142 88 26 154 90 252 42" fill="none" stroke="#10a6a6" stroke-width="34" stroke-linecap="round"/>
+  <path d="M494 184l244 76-232 96 18-82-150-46z" fill="#111318"/>
+  <circle cx="222" cy="172" r="76" fill="#ffb84d"/>
+  <rect x="168" y="376" width="220" height="60" rx="30" fill="#ff6b5f"/>
+</svg>

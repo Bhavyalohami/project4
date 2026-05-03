@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-label="Slim laptop">
+  <rect width="720" height="520" rx="48" fill="#f8efe2"/>
+  <path d="M82 393h556l-48 54H130z" fill="#15171d"/>
+  <rect x="152" y="92" width="416" height="286" rx="26" fill="#111318"/>
+  <rect x="176" y="118" width="368" height="230" rx="16" fill="#fbf5eb"/>
+  <circle cx="518" cy="142" r="44" fill="#58f0d5" opacity=".45"/>
+  <path d="M208 298c54-82 116-90 184-24 40 39 75 45 122 12v62H208z" fill="#ff6b5f"/>
+  <rect x="220" y="162" width="156" height="18" rx="9" fill="#111318"/>
+  <rect x="220" y="198" width="96" height="14" rx="7" fill="#10a6a6"/>
+</svg>
