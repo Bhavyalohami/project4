@@ -1,14 +1,279 @@
-@media screen and (max-width: 820px) {
-    .cart{
+@import 'colors';
+
+@media screen and (max-width: 1240px) {
+    .mainNav {
+        grid-template-columns: auto 1fr auto;
+    }
+
+    .menuToggle {
+        display: grid;
+    }
+
+    .navLinks {
+        position: absolute;
+        left: 1rem;
+        right: 1rem;
+        top: calc(100% + 0.55rem);
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.55rem;
+        padding: 1rem;
+        border-radius: 28px;
+        background: rgba(255, 253, 248, 0.98);
+        border: 1px solid $line;
+        box-shadow: 0 30px 90px rgba(23,32,51,0.18);
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(-10px);
+        transition: opacity 0.25s ease, transform 0.25s ease;
+    }
+
+    .menuOpen .navLinks {
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateY(0);
+    }
+
+    .navLinks a {
+        justify-content: flex-start;
+        min-height: 46px;
+        background: rgba(246,240,230,0.82);
+        color: rgba(23,32,51,0.88);
+    }
+
+    .heroSection,
+    .storySection {
         grid-template-columns: 1fr;
-    
-        >aside{
-            padding: 2rem;
-            border-radius: 0%;
-    
-            >h2{
-                font: 100 1.2rem "Roboto";   
-            }
-        }
+    }
+
+    .heroProduct {
+        min-height: 460px;
+    }
+
+    .experienceSection,
+    .principlesGrid,
+    .supportGrid,
+    .productGrid,
+    .tradeSteps,
+    .journalGrid,
+    .guidedCards,
+    .offerGrid,
+    .servicesGrid,
+    .bundleGrid,
+    .testimonialGrid,
+    .advisorGrid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .collectionGrid,
+    .tradeBand,
+    .comparisonPreview,
+    .advisorSection {
+        grid-template-columns: 1fr;
+    }
+
+    .cart {
+        grid-template-columns: 1fr;
+    }
+
+    .cart > aside {
+        position: static;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .topNotice {
+        justify-content: center;
+        text-align: center;
+        padding: 0.55rem 1rem;
+    }
+
+    .topNotice span,
+    .searchPill span {
+        display: none;
+    }
+
+    .mainNav {
+        grid-template-columns: minmax(0, 1fr) auto;
+        padding: 0.8rem 1rem;
+        gap: 0.65rem;
+    }
+
+    .brandMark img {
+        width: 142px;
+    }
+
+    .headerActions {
+        grid-column: 2;
+        gap: 0.45rem;
+    }
+
+    .navLinks {
+        grid-template-columns: 1fr;
+    }
+
+    .navLinks a {
+        flex: 0 0 auto;
+        min-width: 0;
+        padding: 0.65rem 0.75rem;
+    }
+
+    .searchPill {
+        width: 46px;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .heroSection {
+        min-height: auto;
+        padding: 2rem 1rem 3rem;
+    }
+
+    .heroSection::before,
+    .heroSection::after {
+        font-size: 7rem;
+        left: 1rem;
+    }
+
+    .heroProduct {
+        min-height: 380px;
+        border-radius: 26px;
+    }
+
+    .stageReadout {
+        min-width: 112px;
+        padding: 0.65rem 0.75rem;
+    }
+
+    .stageReadout strong {
+        font-size: 1.05rem;
+    }
+
+    .heroGlyph {
+        opacity: 0.55;
+    }
+
+    .heroProduct img {
+        width: min(86%, 390px);
+        right: -18%;
+    }
+
+    .statsStrip,
+    .experienceSection,
+    .principlesGrid,
+    .supportGrid,
+    .productGrid,
+    .tradeSteps,
+    .journalGrid,
+    .guidedCards,
+    .offerGrid,
+    .servicesGrid,
+    .bundleGrid,
+    .testimonialGrid,
+    .catalogTools,
+    .advisorGrid,
+    .footerPromise,
+    .footerMain {
+        grid-template-columns: 1fr;
+    }
+
+    .dealRibbon,
+    .markdownDeals article {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .dealRibbon {
+        display: flex;
+    }
+
+    .catalogTools div {
+        justify-content: flex-start;
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        padding-bottom: 0.2rem;
+    }
+
+    .catalogTools button {
+        flex: 0 0 auto;
+    }
+
+    .markdownDeals article {
+        display: flex;
+    }
+
+    .markdownDeals img {
+        width: 140px;
+    }
+
+    .statsStrip div {
+        border-right: 0;
+        border-bottom: 1px solid $line;
+    }
+
+    .productCard {
+        min-height: auto;
+        grid-template-rows: 250px auto auto;
+    }
+
+    .pageHero {
+        min-height: 68vh;
+        padding: 5rem 1rem 3rem;
+    }
+
+    .pageHero::after {
+        width: min(70vw, 360px);
+        right: 0;
+        bottom: -2rem;
+        opacity: 0.28;
+        transform: translateX(22%);
+    }
+
+    .heroGlyph,
+    .motionGlyph {
+        max-width: 44vw;
+    }
+
+    .contactBand {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .collectionCard {
+        min-height: 430px;
+    }
+
+    .journalCard {
+        min-height: 300px;
+    }
+
+    .footerPromise article {
+        border-right: 0;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .footerBottom {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .cartItem {
+        grid-template-columns: 98px minmax(0, 1fr) 44px;
+        gap: 0.8rem;
+    }
+
+    .cartItem > img {
+        height: 98px;
+    }
+
+    .cartItem > div {
+        grid-column: 1 / -1;
+        width: 150px;
+    }
+
+    .deleteButton {
+        grid-column: 3;
+        grid-row: 1;
     }
 }

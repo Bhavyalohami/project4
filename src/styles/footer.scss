@@ -1,0 +1,98 @@
+@import 'colors';
+
+.siteFooter {
+    color: white;
+    background: $night;
+}
+
+.footerPromise {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-top: 1px solid rgba(255,255,255,0.1);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.footerPromise article {
+    min-height: 112px;
+    padding: 1.5rem clamp(1rem, 3vw, 2rem);
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    border-right: 1px solid rgba(255,255,255,0.1);
+    font-weight: 800;
+}
+
+.footerPromise article:last-child {
+    border-right: 0;
+}
+
+.footerPromise svg {
+    color: $amber;
+    font-size: 1.45rem;
+}
+
+.footerMain {
+    padding: clamp(3rem, 6vw, 5rem) clamp(1.25rem, 5vw, 5rem);
+    display: grid;
+    grid-template-columns: minmax(240px, 1.6fr) repeat(3, minmax(140px, 0.7fr));
+    gap: clamp(2rem, 5vw, 4rem);
+}
+
+.footerBrand .brandMark {
+    color: $surface;
+}
+
+.footerBrand .brandMark span {
+    background: $teal;
+}
+
+.footerBrand p,
+.footerColumn p,
+.footerColumn a,
+.footerBottom {
+    color: rgba(255,255,255,0.68);
+}
+
+.footerBrand p {
+    max-width: 430px;
+    margin-top: 1rem;
+    line-height: 1.8;
+}
+
+.footerColumn {
+    display: grid;
+    align-content: start;
+    gap: 0.7rem;
+}
+
+.footerColumn h3 {
+    color: $surface;
+    font-size: 0.92rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.footerColumn a {
+    width: fit-content;
+    font-weight: 700;
+}
+
+.footerColumn a:hover {
+    color: $surface;
+}
+
+.footerBottom {
+    padding: 1.2rem clamp(1.25rem, 5vw, 5rem);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    font-size: 0.9rem;
+}
+
+.footerBottom div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}

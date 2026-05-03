@@ -1,18 +1,205 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Rajdhani:wght@600;700&display=swap');
 @import 'colors';
 @import'header';
 @import 'home';
 @import "cart";
+@import "footer";
 @import "mediaquery";
 
-;*{
+*{
     margin: 0%;
     padding: 0%;
-    font-family: "Roboto",sans-serif;
+    font-family: "Inter", Arial, sans-serif;
     text-decoration: none;
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
 body{
-    background-color: $primary;
+    background:
+        radial-gradient(circle at 14% 0%, rgba(255, 200, 87, 0.28), transparent 28rem),
+        radial-gradient(circle at 90% 8%, rgba(79, 70, 229, 0.15), transparent 32rem),
+        $soft;
+    color: $ink;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background:
+        linear-gradient(rgba(23,32,51,0.045) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(23,32,51,0.045) 1px, transparent 1px);
+    background-size: 54px 54px;
+    mask-image: linear-gradient(to bottom, black, transparent 78%);
+}
+
+button,
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
+button {
+    font: inherit;
+}
+
+.sectionEyebrow {
+    color: $teal;
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+}
+
+.pageHero {
+    min-height: 74vh;
+    padding: 8rem clamp(1.25rem, 5vw, 5rem) 4rem;
+    display: grid;
+    align-content: center;
+    gap: 1.2rem;
+    position: relative;
+    overflow: hidden;
+    color: $surface;
+    background:
+        linear-gradient(115deg, rgba(255,255,255,0.94), rgba(246,240,230,0.86)),
+        $soft;
+    border-bottom: 1px solid $line;
+}
+
+.pageHero::after {
+    content: "";
+    position: absolute;
+    right: clamp(-6rem, -5vw, -2rem);
+    bottom: -5rem;
+    width: min(48vw, 560px);
+    aspect-ratio: 1.45;
+    background: url("../assets/hero-core.svg") center/contain no-repeat;
+    opacity: 0.92;
+    filter: drop-shadow(0 40px 90px rgba(88,240,213,0.2));
+}
+
+.pageHero > * {
+    position: relative;
+    z-index: 1;
+}
+
+.pageHero h1 {
+    max-width: 840px;
+    font-family: "Rajdhani", "Inter", sans-serif;
+    font-size: clamp(3.2rem, 8vw, 7.6rem);
+    line-height: 0.82;
+    text-transform: uppercase;
+    letter-spacing: 0;
+}
+
+.pageHero span {
+    max-width: 660px;
+    color: rgba(247,248,255,0.72);
+    font-size: 1.08rem;
+    line-height: 1.8;
+}
+
+.aboutPage,
+.supportPage,
+.collectionsPage,
+.journalPage,
+.tradePage {
+    min-height: 100vh;
+}
+
+input {
+    font: inherit;
+}
+
+.revealBlock {
+    position: relative;
+    opacity: 0;
+    transition:
+        opacity 0.75s ease var(--reveal-delay),
+        transform 0.75s cubic-bezier(0.2, 0.8, 0.2, 1) var(--reveal-delay),
+        filter 0.75s ease var(--reveal-delay);
+    will-change: opacity, transform, filter;
+}
+
+.reveal-rise {
+    transform: translateY(54px) scale(0.985);
+    filter: blur(8px);
+}
+
+.reveal-slide {
+    transform: translateX(-42px);
+    filter: blur(7px);
+}
+
+.reveal-tilt {
+    transform: perspective(900px) rotateX(8deg) translateY(46px);
+    transform-origin: center top;
+    filter: blur(8px);
+}
+
+.revealBlock.is-visible {
+    opacity: 1;
+    transform: none;
+    filter: none;
+}
+
+.revealBlock > article,
+.revealBlock .productCard,
+.revealBlock .journalCard,
+.revealBlock .collectionCard,
+.revealBlock .cartItem,
+.revealBlock .bundleGrid article,
+.revealBlock .testimonialGrid article,
+.revealBlock .guidedCards a {
+    animation-play-state: paused;
+}
+
+.revealBlock.is-visible > article,
+.revealBlock.is-visible .productCard,
+.revealBlock.is-visible .journalCard,
+.revealBlock.is-visible .collectionCard,
+.revealBlock.is-visible .cartItem,
+.revealBlock.is-visible .bundleGrid article,
+.revealBlock.is-visible .testimonialGrid article,
+.revealBlock.is-visible .guidedCards a {
+    animation: sectionChildIn 0.72s both;
+}
+
+.revealBlock.is-visible > article:nth-of-type(2),
+.revealBlock.is-visible .productCard:nth-child(2),
+.revealBlock.is-visible .journalCard:nth-child(2),
+.revealBlock.is-visible .collectionCard:nth-child(2) {
+    animation-delay: 90ms;
+}
+
+.revealBlock.is-visible > article:nth-of-type(3),
+.revealBlock.is-visible .productCard:nth-child(3),
+.revealBlock.is-visible .journalCard:nth-child(3),
+.revealBlock.is-visible .collectionCard:nth-child(3) {
+    animation-delay: 180ms;
+}
+
+.revealBlock.is-visible > article:nth-of-type(4),
+.revealBlock.is-visible .productCard:nth-child(4),
+.revealBlock.is-visible .collectionCard:nth-child(4) {
+    animation-delay: 270ms;
+}
+
+@keyframes sectionChildIn {
+    from {
+        opacity: 0;
+        transform: translateY(26px) scale(0.98);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
 }
