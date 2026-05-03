@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FiCreditCard, FiHeadphones, FiShield, FiTruck } from "react-icons/fi";
+import logo from "../assets/logo.svg";
 
 const Footer = () => {
   const footerLinks = [
@@ -49,7 +50,7 @@ const Footer = () => {
       <section className="footerMain">
         <div className="footerBrand">
           <Link to="/" className="brandMark">
-            <img src="/assets/logo.svg" alt="LumaGear" />
+            <img src={logo} alt="LumaGear" />
           </Link>
           <p>
             Premium tech, thoughtfully curated for focused work, creative flow,

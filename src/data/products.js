@@ -1,3 +1,10 @@
+import phoneImage from "../assets/product-phone.svg";
+import laptopImage from "../assets/product-laptop.svg";
+import tabletImage from "../assets/product-tablet.svg";
+import headphonesImage from "../assets/product-headphones.svg";
+import watchImage from "../assets/product-watch.svg";
+import displayImage from "../assets/product-display.svg";
+
 export const productList = [
   {
     id: "iphone-15-pro",
@@ -12,8 +19,7 @@ export const productList = [
     badge: "Titanium build",
     color: "Natural Titanium",
     specs: ["A17 Pro", "48MP camera", "USB-C", "29h video"],
-    imgSrc:
-      "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-pro-naturaltitanium-select?wid=640&hei=640&fmt=png-alpha&.v=1692845702708",
+    imgSrc: phoneImage,
     description: "A17 Pro performance, pro camera control, and all-day endurance.",
   },
   {
@@ -29,8 +35,7 @@ export const productList = [
     badge: "18-hour battery",
     color: "Midnight",
     specs: ["M3 chip", "13.6 display", "16GB ready", "2.7 lb"],
-    imgSrc:
-      "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mba13-m3-midnight-select-202402?wid=640&hei=640&fmt=png-alpha&.v=1708367688034",
+    imgSrc: laptopImage,
     description: "Portable power for work, study, editing, and everything between.",
   },
   {
@@ -46,8 +51,7 @@ export const productList = [
     badge: "M2 chip",
     color: "Blue",
     specs: ["M2 chip", "13-inch", "Pencil Pro", "Wi-Fi 6E"],
-    imgSrc:
-      "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ipad-air-13-select-wifi-blue-202405?wid=640&hei=640&fmt=png-alpha&.v=1713308272877",
+    imgSrc: tabletImage,
     description: "A lightweight creative canvas with serious desktop-class speed.",
   },
   {
@@ -63,8 +67,7 @@ export const productList = [
     badge: "Spatial audio",
     color: "Silver",
     specs: ["ANC", "Spatial audio", "20h battery", "Memory foam"],
-    imgSrc:
-      "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-max-select-silver-202011?wid=640&hei=640&fmt=png-alpha&.v=1604021221000",
+    imgSrc: headphonesImage,
     description: "Immersive listening, active noise control, and premium comfort.",
   },
   {
@@ -80,8 +83,7 @@ export const productList = [
     badge: "Adventure ready",
     color: "Titanium",
     specs: ["Dual GPS", "49mm", "100m water", "36h battery"],
-    imgSrc:
-      "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/watch-ultra2-select-202309?wid=640&hei=640&fmt=png-alpha&.v=1693500952928",
+    imgSrc: watchImage,
     description: "Precision fitness, navigation, and health tools in one tough watch.",
   },
   {
@@ -97,8 +99,7 @@ export const productList = [
     badge: "5K retina",
     color: "Silver",
     specs: ["5K Retina", "12MP camera", "Six speakers", "Thunderbolt"],
-    imgSrc:
-      "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/studio-display-gallery-1-202203?wid=640&hei=640&fmt=png-alpha&.v=1645558327904",
+    imgSrc: displayImage,
     description: "A cinematic 27-inch canvas for design, video, and deep focus.",
   },
 ];

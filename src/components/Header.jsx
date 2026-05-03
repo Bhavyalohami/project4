@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import {Link, NavLink} from 'react-router-dom'
 import { FiMenu, FiSearch, FiShoppingBag, FiX } from 'react-icons/fi'
 import { useSelector } from 'react-redux'
+import logo from "../assets/logo.svg";
 
 const Header = () => {
 
@@ -18,7 +19,7 @@ const Header = () => {
       </div>
       <nav className="mainNav">
         <Link to='/' className="brandMark" aria-label="LumaGear home" onClick={closeMenu}>
-          <img src="/assets/logo.svg" alt="LumaGear" />
+          <img src={logo} alt="LumaGear" />
         </Link>
 
         <div className="navLinks">

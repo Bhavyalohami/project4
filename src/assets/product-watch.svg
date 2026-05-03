@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-label="Smart watch">
+  <rect width="720" height="520" rx="48" fill="#f6f0e6"/>
+  <path d="M306 72h108l22 102H284zM284 346h152l-22 102H306z" fill="#111318"/>
+  <rect x="252" y="146" width="216" height="228" rx="58" fill="#111318"/>
+  <rect x="282" y="176" width="156" height="168" rx="38" fill="#fbf5eb"/>
+  <circle cx="360" cy="260" r="56" fill="#10a6a6"/>
+  <path d="M360 226v38l30 20" fill="none" stroke="#111318" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="492" cy="244" r="18" fill="#ff6b5f"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-label="Tablet device">
+  <rect width="720" height="520" rx="48" fill="#f5eadb"/>
+  <rect x="166" y="70" width="388" height="380" rx="38" fill="#101217"/>
+  <rect x="192" y="100" width="336" height="320" rx="22" fill="#fff8ed"/>
+  <path d="M226 326c58-92 118-103 180-32 42 48 80 52 122 10v116H226z" fill="#10a6a6"/>
+  <circle cx="450" cy="178" r="66" fill="#ffb84d" opacity=".62"/>
+  <rect x="228" y="156" width="132" height="20" rx="10" fill="#111318"/>
+  <rect x="228" y="196" width="88" height="14" rx="7" fill="#ff6b5f"/>
+</svg>
