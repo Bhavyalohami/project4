@@ -1,0 +1,26 @@
+<svg width="900" height="900" viewBox="0 0 900 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="900" rx="90" fill="#111318"/>
+  <circle cx="450" cy="450" r="350" fill="#1F8A70" fill-opacity=".08"/>
+  <circle cx="450" cy="450" r="260" stroke="#1F8A70" stroke-opacity=".35" stroke-width="2"/>
+  <circle cx="450" cy="450" r="180" stroke="#FF6B35" stroke-opacity=".45" stroke-width="2"/>
+  <rect x="291" y="150" width="318" height="600" rx="70" fill="url(#phone)" stroke="#FFFFFF" stroke-opacity=".24" stroke-width="4"/>
+  <rect x="326" y="205" width="248" height="490" rx="48" fill="#0B0D10"/>
+  <path d="M360 585c84-160 191-124 214-277 51 131-13 295-135 327-31 8-57 0-79-50Z" fill="url(#glow)"/>
+  <rect x="376" y="241" width="148" height="16" rx="8" fill="#1F8A70" fill-opacity=".8"/>
+  <rect x="376" y="272" width="96" height="10" rx="5" fill="white" fill-opacity=".34"/>
+  <circle cx="450" cy="640" r="26" fill="#1F8A70" fill-opacity=".2" stroke="#1F8A70" stroke-width="3"/>
+  <path d="M116 605l120-58 28 58-120 58-28-58ZM650 240l97-97 49 49-97 97-49-49Z" fill="#FF6B35" fill-opacity=".28"/>
+  <path d="M166 220h98M215 171v98M694 640h126M757 577v126" stroke="#1F8A70" stroke-width="16" stroke-linecap="round" stroke-opacity=".5"/>
+  <defs>
+    <linearGradient id="phone" x1="291" y1="150" x2="676" y2="680" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E9FFFF"/>
+      <stop offset=".42" stop-color="#1F8A70"/>
+      <stop offset="1" stop-color="#242832"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="356" y1="300" x2="558" y2="635" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1F8A70"/>
+      <stop offset=".5" stop-color="#FF6B35"/>
+      <stop offset="1" stop-color="#F7A53A"/>
+    </linearGradient>
+  </defs>
+</svg>

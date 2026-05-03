@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/project4/static/css/main.bc249160.css",
+    "main.js": "/project4/static/js/main.8f15b9f7.js",
+    "static/media/hero-core.svg": "/project4/static/media/hero-core.c038357b6a3c3cd3d880.svg",
+    "static/media/collections-art.svg": "/project4/static/media/collections-art.f485dc1ad0ec75868166.svg",
+    "index.html": "/project4/index.html",
+    "static/media/trade-art.svg": "/project4/static/media/trade-art.ea8542e23a7f642668e4.svg",
+    "static/media/services-art.svg": "/project4/static/media/services-art.e645953a0168cf214685.svg",
+    "static/media/compare-art.svg": "/project4/static/media/compare-art.5b3cf18a3be19cc960eb.svg",
+    "static/media/deals-art.svg": "/project4/static/media/deals-art.1b0b8f1fd54b61d7698d.svg",
+    "static/media/journal-art.svg": "/project4/static/media/journal-art.23c9e0edea83cb979c47.svg",
+    "static/media/support-art.svg": "/project4/static/media/support-art.99951e2ac4536349fb3a.svg",
+    "static/media/about-art.svg": "/project4/static/media/about-art.e03aec908f223db3f962.svg",
+    "main.bc249160.css.map": "/project4/static/css/main.bc249160.css.map",
+    "main.8f15b9f7.js.map": "/project4/static/js/main.8f15b9f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc249160.css",
+    "static/js/main.8f15b9f7.js"
+  ]
+}

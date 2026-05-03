@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>LumaGear | Redirecting</title>
+    <script>
+      var path = window.location.pathname;
+      var repo = "/project4";
+      var route = path.indexOf(repo) === 0 ? path.slice(repo.length) : path;
+      window.location.replace(repo + "/?route=" + encodeURIComponent(route + window.location.search + window.location.hash));
+    </script>
+  </head>
+  <body></body>
+</html>
